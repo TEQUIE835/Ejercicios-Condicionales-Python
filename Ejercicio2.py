@@ -1,4 +1,6 @@
-print("Bienvenido")
+print("-" * 40)
+print("                 Bienvenido")
+print("-" * 40)
 
 while True:
     try:
