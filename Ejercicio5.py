@@ -4,13 +4,12 @@ print("                 Bienvenido")
 print("-" * 40)
 
 
-
-adiv = False
 numa=random.randint(1, 10)
+intentos= 3
 
 
-
-for i in range (1, 4):
+while intentos > 0:
+    print(f"Tienes {intentos} intentos")
     while True:
         try:
             numu=int(input("\nIngrese un numero del 1 al 10: "))
@@ -20,7 +19,6 @@ for i in range (1, 4):
         except: print("\nIngrese numero valido")
     if numu==numa: 
         print("\nHas adivinado el numero")
-        adiv = True
         break
     elif numu<numa:
         print("\nEl numero es mayor")
@@ -28,8 +26,8 @@ for i in range (1, 4):
         print("\nEl numero es menor")
 
 
-if adiv==True:
+if intentos>0:
     pass
-elif adiv == False:
+elif intentos<=0:
     print("\nQue pendejo no adivinaste")
         
