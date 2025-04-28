@@ -34,5 +34,5 @@ while intentos > 0:
 if intentos>0:
     pass
 elif intentos<=0:
-    print("\nQue pendejo no adivinaste")
+    print(f"\nQue pendejo no adivinaste, el numero era {numa}")
         
