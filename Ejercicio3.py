@@ -4,7 +4,7 @@ print("-" * 40)
 
 while True:
     try:
-        mult=int(input("\nIngrese un numero del 1 al 10: "))
+        mult=int(input("\nIngrese un numero: "))
         break
     except: print("\nIngrese un numero valido")
 
