@@ -46,7 +46,7 @@ while salir !=True:
     if vol=="Y" or vol == "YES":
         ran()
     elif vol == "N" or vol =="NO":
-        print("Nos vemos...")
+        print("\nNos vemos...")
         sys.exit()
     else:
-        print("Ingresa una opcion valida")
+        print("\nIngresa una opcion valida")
